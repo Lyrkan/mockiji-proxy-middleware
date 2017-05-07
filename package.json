@@ -1,0 +1,20 @@
+{
+  "name": "mockiji-proxy-middleware",
+  "version": "1.0.0",
+  "description": "A proxy middleware for Mockiji",
+  "main": "src/index.js",
+  "author": "Vincent LE BIANNIC",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "express-http-proxy": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "mockiji": "^2.0.0"
+  }
+}
